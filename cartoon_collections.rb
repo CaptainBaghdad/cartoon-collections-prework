@@ -18,5 +18,10 @@ def find_the_cheese(arr)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   ans = arr & cheese_types
-  return ans.length
+  ans.length
+  if ans.length >=1 
+    true
+  else 
+    false
+  end 
 end
