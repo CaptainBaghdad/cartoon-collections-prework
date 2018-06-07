@@ -20,7 +20,7 @@ def find_the_cheese(arr)# code an argument here
   ans = arr & cheese_types
   ans.length
   if ans.length >=1 
-    ans.to_s.chomp
+    ans.join
   else 
     nil
   end 
