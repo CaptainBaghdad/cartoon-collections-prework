@@ -17,5 +17,5 @@ def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  
+  arr & cheese_types.length >=1 ? true : nil
 end
